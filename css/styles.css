@@ -408,7 +408,6 @@ img {
     background-color: var(--background-footer);
     height: 252px;
     display: flex;
-    margin: 60px 0;
 }
 
 .footer-flex {
@@ -439,9 +438,6 @@ img {
     text-decoration: none;
     line-height: 1.71;
     margin-bottom: 9px;
-}
-.join {
-    
 }
 
 .join-up {
