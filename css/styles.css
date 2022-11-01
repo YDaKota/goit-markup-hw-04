@@ -135,7 +135,7 @@ img {
 
 .item-icon{
     margin-right: 10px;
-    fill: var(--secondary-text-color);
+    fill: currentColor;
 }
 
 .item-icon.mail{
@@ -167,6 +167,8 @@ img {
     text-align: center;
     padding: 200px 0;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-img.jpg);
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .hero-title {
@@ -405,13 +407,16 @@ img {
 .footer {
     background-color: var(--background-footer);
     height: 252px;
+    display: flex;
+    margin: 60px 0;
 }
 
 .footer-flex {
     display: flex;
+    align-items: center;
 }
 .footer-contacts {
-    padding-top: 60px;
+    margin-right: 70px;
 }
 
 .footer-logo {
@@ -436,7 +441,7 @@ img {
     margin-bottom: 9px;
 }
 .join {
-    padding: 72px 0 0 70px;
+    
 }
 
 .join-up {
@@ -508,7 +513,12 @@ img {
 }
 
 .project-card:hover,
-.project-card:active {
+.project-card:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.project-link:hover,
+.project-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
